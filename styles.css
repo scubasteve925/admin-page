@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.big-template {
+  border: 2px solid red;
+  height: 962px;
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+  grid-template-rows: 25%
+}
+
+.box {
+  border: 1px solid black;
+}
+
+.sidebar {
+  grid-column: ;
+  grid-row: 1/4 ;
+}
+
+
+.heading {
+  grid-column: 2/4;
+  grid-row: ;
+}
+
+.content {
+  grid-column: 2/4;
+  grid-row: 2/4;
+}
