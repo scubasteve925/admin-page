@@ -191,15 +191,11 @@ body {
 }
 
 .content3 {
-  
+  height: 700px;
 }
 
 .content4 {
-  
-}
-
-.card * {
-  border: solid 2px red;
+  height: 700px;
 }
 
 .card {
@@ -221,26 +217,58 @@ body {
   border-bottom-left-radius: 10px;
 }
 
-.group1 {
-  margin-left: 40px;
+.title-text {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.information {
+  margin-top: 5px;
+}
+
+.card-group {
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 20px;
+  width: 400px;
+}
+
+.icons {
+  display: flex;
+  gap: 33px;
+  margin-left: 250px;
+  margin-top: 17px;
 }
 
 .card2 {
-  height: 275px;
-  width: 350px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
   background-color: white;
+  margin-left: 50px;
+  margin-top: 15px;
   border-radius: 10px;
+  height: 282px;
+  width: 350px;
 }
 
 .trending {
-  height:55px;
-  width: 200px;
+  height: 50px;
   margin-left: 50px;
-  vertical-align: bottom;
-  line-height: 90px;
   font-size: 22px;
   font-weight: bold;
+  vertical-align: bottom;
+  line-height: 90px
+}
+
+.card-contents {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  border: solid 2px black;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.card-info {
+
 }
